@@ -1,8 +1,7 @@
-fastapi
-uvicorn[standard]
-streamlit
-pandas
-numpy
-scikit-learn
-pytest
-httpx
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+streamlit==1.41.1
+pandas==2.3.3
+numpy==2.4.4
+scikit-learn==1.6.1
+altair==5.5.0
