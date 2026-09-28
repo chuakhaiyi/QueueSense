@@ -4,6 +4,34 @@
 
 A complete local campus queue research application: collect measured waits, compare locations and visit times, explore hourly trends, and compare a Random Forest against a location/hour baseline. Built with Python, FastAPI, SQLite, Pandas, scikit-learn and Streamlit.
 
+## Screenshots
+
+Captured from the running application using the isolated **synthetic demo workspace**. Displayed waits and MAE are illustrative, not real-world accuracy claims.
+
+### Campus overview
+
+![QueueSense desktop overview with location wait estimates and hourly forecast](docs/screenshots/overview.png)
+
+<details>
+<summary>Observation capture and model evaluation</summary>
+
+### Record observations
+
+![Observation form for location, time, queue length, service rate and measured wait](docs/screenshots/record-observations.png)
+
+### Model studio
+
+![Model studio showing chronological holdout evaluation on synthetic demo data](docs/screenshots/model-studio.png)
+
+</details>
+
+<details>
+<summary>Mobile layout</summary>
+
+<img src="docs/screenshots/mobile.png" alt="QueueSense overview on a mobile screen" width="390">
+
+</details>
+
 ## Run
 
 Requires Python 3.11. From the project folder:
